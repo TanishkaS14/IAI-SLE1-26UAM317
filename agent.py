@@ -1,4 +1,3 @@
-```python
 def ai_agent():
     print("Welcome to Personal Health & Fitness AI Agent")
     print("I am your personal fitness assistant.")
@@ -27,4 +26,3 @@ def ai_agent():
         print("AI Suggestion: Please describe your fitness concern clearly.")
 
 ai_agent()
-```
