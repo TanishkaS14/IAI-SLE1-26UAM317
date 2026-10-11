@@ -26,3 +26,4 @@ def ai_agent():
         print("AI Suggestion: Please describe your fitness concern clearly.")
 
 ai_agent()
+
