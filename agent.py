@@ -1,30 +1,30 @@
 ```python
 def ai_agent():
-    print("Welcome to Basic AI Agent")
-    print("I am your personal study assistant.")
+    print("Welcome to Personal Health & Fitness AI Agent")
+    print("I am your personal fitness assistant.")
 
     problem = input("Enter your problem: ").lower()
 
-    if "study" in problem:
-        print("AI Suggestion: Make a study timetable and follow it daily.")
+    if "water" in problem:
+        print("AI Suggestion: Drink water regularly throughout the day.")
 
-    elif "tired" in problem:
-        print("AI Suggestion: Take some rest and refresh your mind.")
+    elif "exercise" in problem:
+        print("AI Suggestion: Try regular physical activity suitable for you.")
 
-    elif "python" in problem:
-        print("AI Suggestion: Practice Python programs regularly.")
+    elif "sleep" in problem:
+        print("AI Suggestion: Maintain a regular sleep schedule.")
 
-    elif "exam" in problem:
-        print("AI Suggestion: Revise important topics and solve previous questions.")
+    elif "stress" in problem:
+        print("AI Suggestion: Try relaxation exercises and take short breaks.")
 
-    elif "time" in problem:
-        print("AI Suggestion: Prepare a daily schedule and prioritize your tasks.")
+    elif "food" in problem:
+        print("AI Suggestion: Eat a balanced diet with fruits and vegetables.")
 
-    elif "project" in problem:
-        print("AI Suggestion: Divide your project into small tasks and complete them step by step.")
+    elif "walking" in problem:
+        print("AI Suggestion: Include regular walking in your daily routine.")
 
     else:
-        print("AI Suggestion: Please explain your problem clearly.")
+        print("AI Suggestion: Please describe your fitness concern clearly.")
 
 ai_agent()
 ```
