@@ -2,9 +2,15 @@ def ai_agent():
     print("Welcome to Personal Health & Fitness AI Agent")
     print("I am your personal fitness assistant.")
 
-    problem = input("Enter your problem: ").lower()
+    problem = input("\nEnter your problem (or type 'exit' to stop): ").lower()
 
-    if "water" in problem:
+        # Check if the user wants to quit the program
+        if problem == "exit":
+            print("Exiting AI Agent. Stay healthy!")
+            break  # This breaks out of the loop and stops the program
+
+
+    elif "water" in problem:
         print("AI Suggestion: Drink water regularly throughout the day.")
 
     elif "exercise" in problem:
